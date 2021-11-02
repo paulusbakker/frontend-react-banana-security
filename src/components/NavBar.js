@@ -10,12 +10,10 @@ function NavBar() {
     return (
         <nav>
             <Link to="/">
-          <span className="logo-container">
-            <img src={logo} alt="logo"/>
-            <h3>
-              Banana Security
-            </h3>
-          </span>
+                 <span className="logo-container">
+                     <img src={logo} alt="logo"/>
+                     <h3>Banana Security</h3>
+                 </span>
             </Link>
             {!isAuthenticated ?
                 <div>
